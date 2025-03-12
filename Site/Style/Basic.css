@@ -1,0 +1,93 @@
+/* Scientific Paper Style with Top Bar */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top bar styling */
+.top-bar {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Main content container */
+.container {
+    max-width: 850px;
+    margin: 80px auto 20px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 18pt;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 16pt;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+/* First paragraph after heading has no indent */
+h1 + p, h2 + p, h3 + p {
+    text-indent: 0;
+}
+
+.abstract {
+    font-style: italic;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figcaption {
+    font-size: 10pt;
+    margin-top: 8px;
+}
