@@ -16,7 +16,7 @@ permissions:
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
 # Build job
@@ -36,17 +36,21 @@ jobs:
             ~/.elan/bin/lean --version
             echo "$HOME/.elan/bin" >> $GITHUB_PATH
 
+        - name: Downloading mathlib 
+          run: lake exe cache get 
+
         - name: Making notes 
           run: lake exe notes --depth 1 
 
+        ##########################
+        ## Deploying to GitHub Pages 
+        ##########################
+        
         - name: Upload Website
           uses: actions/upload-pages-artifact@v3
           with:
             path: _out/html-multi/
-            
-        ##########################
-        ## Deploying to GitHub Pages 
-        ##########################
+
         - name: Deploy to GitHub Pages
           id: deployment
           uses: actions/deploy-pages@v4
