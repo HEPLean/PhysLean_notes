@@ -3,7 +3,7 @@ import Notes.WicksTheorem
 import Notes.Genre.Declaration
 open Verso.Genre
 open QuantumMechanics.OneDimension
-open PhysLeanNote
+
 #doc (Manual) "Curated notes" =>
 %%%
 tag := "physlean-notes"

@@ -11,10 +11,6 @@ lean_lib Notes where
   -- add library configuration options here
 
 @[default_target]
-lean_exe "generate-notes" where
-  root := `Main
-
-@[default_target]
 lean_exe notes where
   srcDir := "Notes"
   root := `Genre.Main

@@ -3,13 +3,14 @@ Copyright (c) 2025 Joseph Tooby-Smith. All rights reserved.
 Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Joseph Tooby-Smith
 -/
-import PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.Basic
 import VersoBlog
-import Notes.Genre.Basic
+import Notes.Genre.Declaration
+import VersoManual
 
 open Verso.Genre
-open QuantumMechanics.OneDimension
-open PhysLeanNote
+open Verso.Genre Manual
+
+open Verso.Genre
 #doc (Manual) "Wicks theorem" =>
 
 

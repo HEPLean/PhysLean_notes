@@ -1,4 +1,3 @@
-import Notes.Genre.Basic
 import Notes.Main
 import VersoManual
 import Notes.Genre.Declaration
