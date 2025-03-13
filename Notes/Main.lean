@@ -1,17 +1,21 @@
-import Notes.HarmonicOscillator
-import Notes.WicksTheorem
-import Notes.Genre.Declaration
-open Verso.Genre
-open QuantumMechanics.OneDimension
+/- Importing the Main files for each sub-category. -/
+import Notes.QuantumMechanics.Main
+import Notes.QFT.Main
 
-#doc (Manual) "Curated notes" =>
+open Verso.Genre
+
+#doc (Manual) "PhysLean Notes" =>
 %%%
 tag := "physlean-notes"
 %%%
 
-Curated notes
+These notes are part of the [PhysLean](https://physlean.com) project,
+which aims to digitalize physics into the Lean theorem prover.
 
+This can be thought of as the reference manual for PhysLean.
+If you are looking for documentation
+see the [docs](https://physlean.com/docs/).
 
-{include 0 Notes.HarmonicOscillator}
+{include 0 Notes.QuantumMechanics.Main}
 
-{include 0 Notes.WicksTheorem}
+{include 0 Notes.QFT.Main}

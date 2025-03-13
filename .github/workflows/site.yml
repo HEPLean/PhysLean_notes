@@ -40,7 +40,7 @@ jobs:
           run: lake exe cache get 
 
         - name: Making notes 
-          run: lake exe notes --depth 1 
+          run: lake exe notes --depth 2
 
         ##########################
         ## Deploying to GitHub Pages 
