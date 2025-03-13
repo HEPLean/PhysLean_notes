@@ -1,6 +1,7 @@
 /- Importing the Main files for each sub-category. -/
 import Notes.QuantumMechanics.Main
 import Notes.QFT.Main
+import Notes.Particles.Main
 
 open Verso.Genre
 
@@ -19,3 +20,5 @@ see the [docs](https://physlean.com/docs/).
 {include 0 Notes.QuantumMechanics.Main}
 
 {include 0 Notes.QFT.Main}
+
+{include 0 Notes.Particles.Main}
