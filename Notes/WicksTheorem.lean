@@ -10,14 +10,14 @@ import Notes.Genre.Basic
 open Verso.Genre
 open QuantumMechanics.OneDimension
 open PhysLeanNote
-#doc (PhysLeanNote) "Wicks theorem" =>
+#doc (Manual) "Wicks theorem" =>
 
+
+By Joseph Tooby-Smith
 
 # Introduction
 %%%
-tag := "intro"
+tag := "Introduction"
 %%%
 
 Wicks theorem
-
-{docString "test"}

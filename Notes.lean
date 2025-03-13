@@ -1,1 +1,1 @@
-import Notes.HarmonicOscillator
+import PhysLean
