@@ -12,5 +12,4 @@ lean_lib Notes where
 
 @[default_target]
 lean_exe notes where
-  srcDir := "Notes"
-  root := `Genre.Main
+  root := `Notes

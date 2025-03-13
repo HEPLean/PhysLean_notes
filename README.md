@@ -9,6 +9,6 @@ These notes are made with Verso.
 
 To run the notes locally run 
 ```
-lake exe notes --depth 1
+lake exe notes --depth 2
 python3 -m http.server 8800 --directory ./_out/html-multi
 ```

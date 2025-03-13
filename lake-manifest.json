@@ -5,7 +5,7 @@
    "type": "git",
    "subDir": null,
    "scope": "",
-   "rev": "cc6716079bbd36638237ab59bb64e33de168d776",
+   "rev": "d65cb328818039fa34a29ed551852022b2ead4a4",
    "name": "PhysLean",
    "manifestFile": "lake-manifest.json",
    "inputRev": "master",
