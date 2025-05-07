@@ -1,5 +1,6 @@
 /- Importing the Main files for each sub-category. -/
 import Notes.QuantumMechanics.Main
+import Notes.CondensedMatter.Main
 import Notes.QFT.Main
 import Notes.Particles.Main
 import Notes.Relativity.Main
@@ -18,7 +19,10 @@ This can be thought of as the reference manual for PhysLean.
 If you are looking for documentation
 see the [docs](https://physlean.com/docs/).
 
+
 {include 0 Notes.QuantumMechanics.Main}
+
+{include 0 Notes.CondensedMatter.Main}
 
 {include 0 Notes.Relativity.Main}
 
