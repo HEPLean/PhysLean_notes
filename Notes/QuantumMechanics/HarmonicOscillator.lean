@@ -6,13 +6,13 @@ Authors: Joseph Tooby-Smith
 import PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.TISE
 import PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.Completeness
 import VersoBlog
-import Notes.Genre.Declaration
 import VersoManual
 open Verso.Genre Manual
 
 open Verso.Genre
 open QuantumMechanics.OneDimension.HilbertSpace
 open QuantumMechanics.OneDimension.HarmonicOscillator
+set_option verso.docstring.allowMissing true
 
 set_option maxHeartbeats 0
 #doc (Manual) "Quantum Harmonic Oscillator" =>
@@ -45,64 +45,64 @@ quantum harmonic oscillator.
 
 # Hilbert space
 
-{declaration QuantumMechanics.OneDimension.HilbertSpace}
+{docstring QuantumMechanics.OneDimension.HilbertSpace}
 
-{declaration MemHS}
+{docstring MemHS}
 
-{declaration memHS_iff}
+{docstring memHS_iff}
 
-{declaration QuantumMechanics.OneDimension.HilbertSpace.mk}
+{docstring QuantumMechanics.OneDimension.HilbertSpace.mk}
 
-{declaration parity}
+{docstring parity}
 
-{declaration memHS_of_parity}
+{docstring memHS_of_parity}
 
 # The Schrodinger Operator
 
-{declaration QuantumMechanics.OneDimension.HarmonicOscillator}
+{docstring QuantumMechanics.OneDimension.HarmonicOscillator}
 
-{declaration ξ}
+{docstring ξ}
 
-{declaration schrodingerOperator}
+{docstring schrodingerOperator}
 
-{declaration schrodingerOperator_parity}
+{docstring schrodingerOperator_parity}
 
 # The eigenfunctions of the Schrodinger Operator
 
-{declaration PhysLean.physHermite}
+{docstring PhysLean.physHermite}
 
-{declaration eigenfunction}
+{docstring eigenfunction}
 
 #  Properties of the eigenfunctions
 
-{declaration eigenfunction_integrable}
+{docstring eigenfunction_integrable}
 
-{declaration eigenfunction_conj}
+{docstring eigenfunction_conj}
 
-{declaration eigenfunction_aeStronglyMeasurable}
+{docstring eigenfunction_aeStronglyMeasurable}
 
-{declaration eigenfunction_square_integrable}
+{docstring eigenfunction_square_integrable}
 
-{declaration eigenfunction_memHS}
+{docstring eigenfunction_memHS}
 
-{declaration eigenfunction_differentiableAt}
+{docstring eigenfunction_differentiableAt}
 
-{declaration eigenfunction_orthonormal}
+{docstring eigenfunction_orthonormal}
 
-{declaration eigenfunction_parity}
+{docstring eigenfunction_parity}
 
 # The time-independent Schrodinger Equation
 
-{declaration eigenValue}
+{docstring eigenValue}
 
-{declaration schrodingerOperator_eigenfunction}
+{docstring schrodingerOperator_eigenfunction}
 
 # Completeness
 
-{declaration orthogonal_power_of_mem_orthogonal}
+{docstring orthogonal_power_of_mem_orthogonal}
 
-{declaration orthogonal_exp_of_mem_orthogonal}
+{docstring orthogonal_exp_of_mem_orthogonal}
 
-{declaration fourierIntegral_zero_of_mem_orthogonal}
+{docstring fourierIntegral_zero_of_mem_orthogonal}
 
-{declaration eigenfunction_completeness}
+{docstring eigenfunction_completeness}

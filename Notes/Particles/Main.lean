@@ -1,5 +1,4 @@
 import Notes.Particles.HiggsPotential
-import Notes.Genre.Declaration
 open Verso.Genre
 
 #doc (Manual) "Particle Physics" =>

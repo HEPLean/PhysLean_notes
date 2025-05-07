@@ -1,5 +1,4 @@
 import Notes.QuantumMechanics.HarmonicOscillator
-import Notes.Genre.Declaration
 open Verso.Genre
 
 #doc (Manual) "Quantum Mechanics" =>

@@ -1,5 +1,4 @@
 import Notes.QFT.WicksTheorem
-import Notes.Genre.Declaration
 open Verso.Genre
 
 #doc (Manual) "QFT" =>

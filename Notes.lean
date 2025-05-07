@@ -1,6 +1,5 @@
 import Notes.Main
 import VersoManual
-import Notes.Genre.Declaration
 
 
 open Verso.Genre.Manual

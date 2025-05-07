@@ -5,7 +5,6 @@ Authors: Joseph Tooby-Smith
 -/
 import PhysLean.Particles.StandardModel.HiggsBoson.Potential
 import VersoBlog
-import Notes.Genre.Declaration
 import VersoManual
 open Verso.Genre Manual
 
@@ -28,40 +27,40 @@ The Higgs potential is a key part of the Standard Model of particle physics.
 
 # The Higgs field
 
-{declaration StandardModel.HiggsVec}
+{docstring StandardModel.HiggsVec}
 
-{declaration StandardModel.HiggsBundle}
+{docstring StandardModel.HiggsBundle}
 
-{declaration StandardModel.HiggsField}
+{docstring StandardModel.HiggsField}
 
 # The Higgs potential
 
-{declaration StandardModel.HiggsField.Potential}
+{docstring StandardModel.HiggsField.Potential}
 
-{declaration StandardModel.HiggsField.normSq}
+{docstring StandardModel.HiggsField.normSq}
 
-{declaration StandardModel.HiggsField.Potential.toFun}
+{docstring StandardModel.HiggsField.Potential.toFun}
 
 ## Properties of the Higgs potential
 
-{declaration StandardModel.HiggsField.Potential.neg_𝓵_quadDiscrim_zero_bound}
+{docstring StandardModel.HiggsField.Potential.neg_𝓵_quadDiscrim_zero_bound}
 
-{declaration StandardModel.HiggsField.Potential.pos_𝓵_quadDiscrim_zero_bound}
+{docstring StandardModel.HiggsField.Potential.pos_𝓵_quadDiscrim_zero_bound}
 
-{declaration StandardModel.HiggsField.Potential.neg_𝓵_sol_exists_iff}
+{docstring StandardModel.HiggsField.Potential.neg_𝓵_sol_exists_iff}
 
-{declaration StandardModel.HiggsField.Potential.pos_𝓵_sol_exists_iff}
+{docstring StandardModel.HiggsField.Potential.pos_𝓵_sol_exists_iff}
 
 ## Boundedness of the Higgs potential
 
-{declaration StandardModel.HiggsField.Potential.IsBounded}
+{docstring StandardModel.HiggsField.Potential.IsBounded}
 
-{declaration StandardModel.HiggsField.Potential.isBounded_𝓵_nonneg}
+{docstring StandardModel.HiggsField.Potential.isBounded_𝓵_nonneg}
 
-{declaration StandardModel.HiggsField.Potential.isBounded_of_𝓵_pos}
+{docstring StandardModel.HiggsField.Potential.isBounded_of_𝓵_pos}
 
 ## Maximum and minimum of the Higgs potential
 
-{declaration StandardModel.HiggsField.Potential.isMaxOn_iff_field_of_𝓵_neg}
+{docstring StandardModel.HiggsField.Potential.isMaxOn_iff_field_of_𝓵_neg}
 
-{declaration StandardModel.HiggsField.Potential.isMinOn_iff_field_of_𝓵_pos}
+{docstring StandardModel.HiggsField.Potential.isMinOn_iff_field_of_𝓵_pos}

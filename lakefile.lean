@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-require verso from git "https://github.com/leanprover/verso.git"@"v4.17.0"
+require verso from git "https://github.com/leanprover/verso.git"@"v4.19.0"
 require PhysLean from git "https://github.com/HEPLean/PhysLean"@"master"
 
 package "Notes" where
